@@ -23,9 +23,9 @@ All the figure results are saved in folder "/results". Some other results are sh
 
 - To check the uniformity of the p-value, please run
     ```
-    >> python ex1_fpr.py
+    >> python ex2_fpr.py
     ```
 - Example for computing p-value
     ```
-    >> python ex2_p_value.py
+    >> python ex3_pvalue.py
     ```
