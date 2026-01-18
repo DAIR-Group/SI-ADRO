@@ -8,7 +8,7 @@ This implementation has the following requirements:
 - [numpy](https://numpy.org/)
 - [matplotlib](https://matplotlib.org/)
 - [mpmath](https://mpmath.org/)
-- [scipy][https://scipy.org/]
+- [scipy](https://scipy.org/)
 - [highspy](https://ergo-code.github.io/HiGHS/dev/interfaces/python/)
 
 ## Reproducibility
