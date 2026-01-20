@@ -1,6 +1,12 @@
 # Statistical Inference for Anomaly Detection via Distributionally Robust Optimization
 
-This repository provides the implementation with some examples for SI-ADRO. The proposed method aims to perform a proper hypothesis testing on outliers detected by Distributionally Robust Optimization, which can control False Positive Rate (FPR) at a significance level $\alpha$. 
+This repository provides the implementation with some examples for SI-ADRO. The proposed method aims to perform a proper hypothesis testing on outliers detected by Distributionally Robust Optimization, which can control False Positive Rate (FPR) at a significance level $\alpha$. In this work, we consider the DRO problem with the ambiguity set induced by $\ell_{1}$ and $\ell_{\infty}$ Wasserstein metric.
+
+## Method Overview 
+![SI-ADRO method Overview](figures/method_overview.png)
+*Figure 1: Overview of the proposed SI-ADRO method.*
+
+To achieve controlled FPR, we need to consider the selection procedure of Wasserstein DRO when performing hypothesis testing. This selection procedure is represented by the truncation region $\mathcal{Z}$ and can be characterized by leveraging the piece-wise linear structure of Wasserstein DRO. Moreover, we develop a computationally efficient strategy to improve the true detection rate.
 
 ## Installation & Requirements
 
